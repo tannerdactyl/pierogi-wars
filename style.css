@@ -16,11 +16,21 @@ h2 {
 	text-align:center;
 }
 
+h3 {
+	font-family: 'Josefin Sans';
+	font-weight: 300;
+	text-align: center;
+}
+
 .story {
 	background-color: #10CCC1;
 	float: left;
 	width: 30%;
 	margin: 5px;
-	padding: 5px;
+	padding: 1%;
 }
 
+#feature-img {
+	max-width: 100%;
+	min-width: 60%;
+}
