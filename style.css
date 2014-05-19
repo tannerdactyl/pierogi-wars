@@ -43,29 +43,8 @@ h3 {
 	background-color: #FFD519;
 }
 
-.full-photo1 {
+.full-photo {
 	background: url(http://media-cache-ak0.pinimg.com/originals/d8/63/4f/d8634f2e722cdc60a6a6a485dce134a3.jpg); 
 	background-size: cover;
 	height: 700px;
 }
-
-.full-photo2 {
-	background: url(http://f.cl.ly/items/1Q0Z290H3M1Q0h1b1x21/Wagon11.jpg); 
-	background-size: cover;
-	height: 700px;
-}
-
-.full-photo3 {
-	background: url(http://f.cl.ly/items/1x2D26232c011c1k123u/Wagon17.jpg); 
-	background-size: cover;
-	height: 700px;
-}
-
-.full-photo4 {
-	background: url(http://f.cl.ly/items/15400J3i1Q313H2y1Q0M/Wagon7.jpg); 
-	background-size: cover;
-	height: 700px;
-}
-
-
-
