@@ -42,3 +42,9 @@ h3 {
 #story-yellow {
 	background-color: #FFD519;
 }
+
+.full-photo {
+	background: url(http://media-cache-ak0.pinimg.com/originals/d8/63/4f/d8634f2e722cdc60a6a6a485dce134a3.jpg); 
+	background-size: cover;
+	height: 700px;
+}
