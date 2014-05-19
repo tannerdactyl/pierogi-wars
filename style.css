@@ -18,5 +18,9 @@ h2 {
 
 .story {
 	background-color: #10CCC1;
+	float: left;
+	width: 30%;
+	margin: 5px;
+	padding: 5px;
 }
 
