@@ -1,6 +1,6 @@
 body {
 	font-family: 'Lora';
-	background-color: #FFD519;
+	/*background-color: #FFD519;*/
 } 
 
 h1 {
@@ -37,4 +37,8 @@ h3 {
 
 .story-img {
 	width: 90%;
+}
+
+#story-yellow {
+	background-color: #FFD519;
 }
