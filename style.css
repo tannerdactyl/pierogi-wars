@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lora';
 	/*background-color: #FFD519;*/
+	float:left;
 } 
 
 h1 {
@@ -9,17 +10,10 @@ h1 {
 	text-align:center;
 }
 
-
-h2 {
+h2, h3 {
 	font-family: 'Josefin Sans';
 	font-weight: 300;
 	text-align:center;
-}
-
-h3 {
-	font-family: 'Josefin Sans';
-	font-weight: 300;
-	text-align: center;
 }
 
 .story {
@@ -43,8 +37,31 @@ h3 {
 	background-color: #FFD519;
 }
 
-.full-photo {
+#full-photo-1 {
 	background: url(http://media-cache-ak0.pinimg.com/originals/d8/63/4f/d8634f2e722cdc60a6a6a485dce134a3.jpg); 
 	background-size: cover;
 	height: 700px;
+}
+
+#full-photo-2 {
+	background: url(http://f.cl.ly/items/1x2D26232c011c1k123u/Wagon17.jpg); 
+	background-size: cover;
+	height: 700px;
+	margin: 100px 0px 0px 0px;
+}
+
+#full-photo-3 {
+	background: url(http://f.cl.ly/items/15400J3i1Q313H2y1Q0M/Wagon7.jpg); 
+	background-size: cover;
+	height: 700px;
+}
+
+#full-photo-4 {
+	background: url(http://f.cl.ly/items/1Q0Z290H3M1Q0h1b1x21/Wagon11.jpg); 
+	background-size: cover;
+	height: 700px;
+}
+
+#main-content {
+	clear:both;
 }
