@@ -5,17 +5,18 @@ body {
 	float:left;
 } 
 
-h1 {
+h1,h2,h3{
 	font-family: 'Josefin Sans';
-	font-size: 53pt;
 	text-align:center;
 }
 
+h1 {
+	font-size: 53pt;
+}
+
 h2, h3 {
-	font-family: 'Josefin Sans';
 	font-weight: 300;
 	font-size: 35px;
-	text-align:center;
 }
 
 .story {
