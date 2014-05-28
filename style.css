@@ -25,6 +25,7 @@ h2, h3 {
 	width: 30%;
 	margin: 5px;
 	padding: 1%;
+	height: 265px;
 }
 
 #feature-img {
@@ -75,20 +76,20 @@ h2, h3 {
 }
 
 #full-photo-1 {
-	background-image: url(http://media-cache-ak0.pinimg.com/originals/d8/63/4f/d8634f2e722cdc60a6a6a485dce134a3.jpg); 
+	background-image: url(http://i.imgur.com/B4ijEBp.jpg); 
 }
 
 #full-photo-2 {
-	background-image: url(http://f.cl.ly/items/1x2D26232c011c1k123u/Wagon17.jpg); 
+	background-image: url(http://i.imgur.com/dmx5EbT.jpg); 
 	margin: 100px 0px 0px 0px;
 }
 
 #full-photo-3 {
-	background-image: url(http://f.cl.ly/items/15400J3i1Q313H2y1Q0M/Wagon7.jpg); 
+	background-image: url(http://i.imgur.com/bSiYV0c.jpg); 
 }
 
 #full-photo-4 {
-	background-image: url(http://f.cl.ly/items/1Q0Z290H3M1Q0h1b1x21/Wagon11.jpg); 
+	background-image: url(http://i.imgur.com/RDf0oWB.jpg); 
 }
 
 #main-content {
