@@ -40,13 +40,18 @@ h2, h3 {
 	background-color: #FFD519;
 	width: 45%;
 	text-align: center;
-	text-decoration: 
+	
 }
 
 .story-box-blue {
 	background-color: #10CCC1;
 	width: 45%;
 	text-align: center;
+	
+}
+
+.story-link {
+	text-decoration: none;
 }
 
 #story-yellow {

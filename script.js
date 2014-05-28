@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$("#main-content").hide(); 
 
 	
-	$(".story-link").click(function() { 
+	$(".story-link, .story-box, .story-box-blue").click(function() { 
 		var storyname = this.id;
 		$("#main-content").show();
 
