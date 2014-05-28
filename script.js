@@ -9,19 +9,19 @@ $(document).ready(function() {
 		$("#main-content").show();
 
 		if (storyname == "city-link") {
-			$("#truck, #restaurant, #full-photo-3, #full-photo-4").hide();
-			$("#city, #full-photo-2").show();
+			$("#truck, #restaurant, #full-photo-3, #full-photo-4").fadeOut("fast");
+			$("#city, #full-photo-2").fadeIn("slow");
 			
 		};
 		if (storyname == "restaurant-link") {
-			$("#truck, #city, #full-photo-2, #full-photo-4").hide();
-			$("#restaurant, #full-photo-3").show();
+			$("#truck, #city, #full-photo-2, #full-photo-4").fadeOut("fast");
+			$("#restaurant, #full-photo-3").fadeIn("slow");
 			
 		};
 		
 		if (storyname == "truck-link") {
-			$("#restaurant, #city, #full-photo-2, #full-photo-3").hide();
-			$("#truck, #full-photo-4").show();
+			$("#restaurant, #city, #full-photo-2, #full-photo-3").fadeOut("fast");
+			$("#truck, #full-photo-4").fadeIn("slow");
 		};
 
 
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 	
 	$(".back-link").click(function() {
-		$("#main-content").hide();
+		$("#main-content").fadeOut("fast");
 	});
 
 
