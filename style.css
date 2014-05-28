@@ -38,16 +38,26 @@ h2, h3 {
 
 .story-box {
 	background-color: #FFD519;
-	width: 45%;
+	width: 33.333%;
 	text-align: center;
+	margin-left: 33.333%;
+	margin-right: 33.333%;
 	
 }
 
 .story-box-blue {
 	background-color: #10CCC1;
-	width: 45%;
+	width: 33.333%;
 	text-align: center;
+	margin-left: 33.333%;
+	margin-right: 33.333%;
 	
+}
+
+
+.back-link {
+	text-decoration: none;
+	text-align: center;
 }
 
 .story-link {
