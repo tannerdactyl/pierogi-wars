@@ -213,6 +213,7 @@ img {
 	position:fixed;
 	top: 5%;
 	right: 2%;
+	visibility: hidden;
 }
 
 .circle-controls {

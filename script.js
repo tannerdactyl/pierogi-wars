@@ -49,6 +49,17 @@ $(document).ready(function() {
 	});
 
 	
+	$(function(){
+    	$(window).scroll(function() { 
+        	if ($(this).scrollTop() > 75) { 
+            $(".controls:hidden").css('visibility','visible');   
+            $(".controls:hidden").fadeIn('slow');  
+        } 
+        else {     
+            $(".controls:visible").fadeOut("slow"); 
+        }  
+    });
+});
 
 	
 });
