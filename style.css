@@ -26,10 +26,10 @@ h3 {
 .story {
 	background-color: #10CCC1;
 	float: left;
-	width: 400px;
+	width: 300px;
+	height: 300px;
 	margin: 5px;
-	padding: 8%;
-	height: 400px;
+	padding: 4%;
 	border-radius: 50%;
 	text-align: center;
 }
@@ -76,27 +76,12 @@ h3 {
 	background-size: cover;
 	height: 700px;
 	width: 100%;
-}
-
-#full-photo-1 {
 	background-image: url(http://i.imgur.com/B4ijEBp.jpg); 
-}
-
-#full-photo-2 {
-	background-image: url(http://i.imgur.com/dmx5EbT.jpg); 
-	margin: 100px 0px 0px 0px;
-}
-
-#full-photo-3 {
-	background-image: url(http://i.imgur.com/bSiYV0c.jpg); 
-}
-
-#full-photo-4 {
-	background-image: url(http://i.imgur.com/RDf0oWB.jpg); 
 }
 
 #main-content {
 	clear:both;
+	margin: 50 0 0 0px;
 }
 
 .section {
