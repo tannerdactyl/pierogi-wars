@@ -67,6 +67,10 @@ img {
 	margin-right: 0 auto;
 }
 
+.story:hover {
+	background-color: rgba(255, 213, 25, 1);
+}
+
 /*
 #feature-img {
 	max-width: 100%;
@@ -228,6 +232,11 @@ img {
 	border-radius: 50%;
 	background-color:rgba(255, 0 , 113, 1);
 	margin: 6px;
+	border: 2px white;
+}
+
+.circle-controls:hover {
+	border: 2px solid black;
 }
 
 /* #story-holder {
