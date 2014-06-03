@@ -11,15 +11,15 @@ $(document).ready(function() {
 		scrollTo("#landing");
 	});
 
-	$("#city-control").click(function() { 
+	$("#city-control, #city-teaser").click(function() { 
 		scrollTo("#city");
 	});
 
-	$("#restaurant-control").click(function() { 
+	$("#restaurant-control, #restaurant-teaser").click(function() { 
 		scrollTo("#restaurant");
 	});
 
-	$("#truck-control").click(function() { 
+	$("#truck-control, #truck-teaser").click(function() { 
 		scrollTo("#truck");
 	});
 
