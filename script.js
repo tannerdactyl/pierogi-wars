@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
-	// scrolls to certain location
-	function scrollTo(id) {
+	
+	function scrollTo(id) { // scrolls to certain location
 		$('html, body').animate(
 			{scrollTop: $(id).offset().top}, "1000");
 	}
@@ -21,6 +21,31 @@ $(document).ready(function() {
 
 	$("#truck-control, #truck-teaser").click(function() { 
 		scrollTo("#truck");
+	});
+
+	// Nav button hover text
+	$("#landing-control").hover(function() {
+		$(this).append($("<p>landing</p>"));
+	}, function() {
+		$(this).empty();
+	});
+
+	$("#city-control").hover(function() {
+		$(this).append($("<p>city</p>"));
+	}, function() {
+		$(this).empty();
+	});
+
+	$("#restaurant-control").hover(function() {
+		$(this).append($("<p>restaurant</p>"));
+	}, function() {
+		$(this).empty();
+	});
+
+	$("#truck-control").hover(function() {
+		$(this).append($("<p>truck</p>"));
+	}, function() {
+		$(this).empty();
 	});
 
 	
