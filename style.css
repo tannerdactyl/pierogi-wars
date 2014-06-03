@@ -231,11 +231,11 @@ img {
 	border-radius: 50%;
 	background-color:rgba(255, 0 , 113, 1);
 	margin: 6px;
-	border: 2px white;
 }
 
 .circle-controls:hover {
-	border: 2px solid black;
+	height: 25px;
+	width: 25px;
 }
 
 /* #story-holder {
