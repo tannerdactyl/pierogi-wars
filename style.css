@@ -14,18 +14,25 @@ h1 {
 	font-size: 53pt;
 }
 
-h2, h3 {
+h2 {
 	font-weight: 300;
 	font-size: 35px;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 55px;
 }
 
 .story {
 	background-color: #10CCC1;
 	float: left;
-	width: 30%;
+	width: 300px;
+	height: 300px;
 	margin: 5px;
-	padding: 1%;
-	height: 265px;
+	padding: 4%;
+	border-radius: 50%;
+	text-align: center;
 }
 
 #feature-img {
@@ -55,7 +62,6 @@ h2, h3 {
 	
 }
 
-
 .back-link {
 	text-decoration: none;
 	text-align: center;
@@ -73,23 +79,7 @@ h2, h3 {
 	background-size: cover;
 	height: 700px;
 	width: 100%;
-}
-
-#full-photo-1 {
 	background-image: url(http://i.imgur.com/B4ijEBp.jpg); 
-}
-
-#full-photo-2 {
-	background-image: url(http://i.imgur.com/dmx5EbT.jpg); 
-	margin: 100px 0px 0px 0px;
-}
-
-#full-photo-3 {
-	background-image: url(http://i.imgur.com/bSiYV0c.jpg); 
-}
-
-#full-photo-4 {
-	background-image: url(http://i.imgur.com/RDf0oWB.jpg); 
 }
 
 #main-content {
@@ -99,4 +89,62 @@ h2, h3 {
 .section {
 	width: 60%;
 	margin: 0 auto;
+}
+
+.row {
+	text-align: center;
+	position: relative;
+}
+
+.end-circle-yellow {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(255, 213, 25, 1);
+    position:relative;
+    margin:25px auto;
+    display:inline-block;
+}
+
+.end-circle-blue {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(16, 204, 193, 1);
+    position:relative;
+    margin:25px auto;
+    display:inline-block;
+}
+
+.pull-quote-holder {
+	position:relative;
+}
+
+.pull-quote {
+	color: #10CCC1;
+	text-align: right;
+	font-style: italic;
+	font-size: 35px;
+	width:550px;
+	margin: 30px;
+}
+
+.circle-1 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255, 213, 25, .5);
+	position: absolute;
+	left: 630px;
+	top: 20px;
+}
+
+.circle-2 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(16, 204, 193, .5);
+	position:absolute;
+	left: 600px;
+	top: 20px;
 }
