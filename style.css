@@ -88,7 +88,7 @@ img {
 	margin-right: 40%;
 }*/
 
-.deck {
+/*.deck {
 	font-size: 55px;
 	color: white;
 }
@@ -96,6 +96,11 @@ img {
 #authors {
 	width:400px;
 	left:10%;
+}*/
+
+
+#splash-image {
+	margin: 0 0 0 0;
 }
 
 /*
@@ -119,12 +124,12 @@ img {
 	clear:both;
 }
 
-.full-photo{
+/*.full-photo{
 	background-size: cover;
 	height: 700px;
 	width: 100%;
-	background-image: url(http://i.imgur.com/B4ijEBp.jpg); 
-}
+	background-image: url(http://i.imgur.com/raUdSC5.jpg); 
+}*/
 
 .section {
 	width: 60%;
@@ -190,6 +195,7 @@ img {
 	top: 20px;
 }
 
+/*
 #half-circle-1 {
 	 height:400px;
      width:800px;
@@ -208,6 +214,8 @@ img {
      left: 800px;
      top: 450px;
 }
+
+*/
 
 .controls {
 	position:fixed;
