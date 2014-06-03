@@ -209,11 +209,10 @@ img {
      top: 450px;
 }
 
-.controls {
+#controls {
 	position:fixed;
 	top: 5%;
 	right: 2%;
-	visibility: hidden;
 }
 
 .circle-controls {
