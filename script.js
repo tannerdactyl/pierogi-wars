@@ -49,17 +49,25 @@ $(document).ready(function() {
 	});
 
 	
-	$(function(){
-    	$(window).scroll(function() { 
-        	if ($(this).scrollTop() > 75) { 
-            $(".controls:hidden").css('visibility','visible');   
-            $(".controls:hidden").fadeIn('slow');  
-        } 
-        else {     
-            $(".controls:visible").fadeOut("slow"); 
-        }  
+	// $(function(){
+ //    	$(window).scroll(function() { 
+ //        	if ($(this).scrollTop() > 75) { 
+ //            $("#controls:hidden").css('visibility','visible');   
+ //            $("#controls:hidden").fadeIn('slow');  
+ //        	} 
+ //        	else {     
+ //            $("#controls:visible").fadeOut("slow"); 
+ //        	}  
+ //    	});
+	// });
+
+	$("#controls").hide(); //hide your div initially
+    var topOfOthDiv = $("#landing").offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+            $("#controls").show(200); //reached the desired point -- show div
+        }
     });
-});
 
 	
 });
