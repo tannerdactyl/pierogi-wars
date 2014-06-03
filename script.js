@@ -32,6 +32,26 @@ $(document).ready(function() {
 	// 	$("#main-content").fadeOut("fast");
 	// });
 	
+	//Story navigation buttons
+	$("#landing-control").click(function() {
+		$('html, body').animate(
+			{scrollTop: $("#landing").offset().top}, 2000);
+	});
+
+	$("#city-control").click(function() {
+		$('html, body').animate(
+			{scrollTop: $("#city").offset().top}, 2000);
+	});
+
+	$("#restaurant-control").click(function() {
+		$('html, body').animate(
+			{scrollTop: $("#restaurant").offset().top}, 2000);
+	});
+
+	$("#truck-control").click(function() {
+		$('html, body').animate(
+			{scrollTop: $("#truck").offset().top}, 2000);
+	});
 
 
 
