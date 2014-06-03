@@ -11,7 +11,7 @@ h1,h2,h3{
 
 h1 {
 	font-size: 90pt;
-	color:white;
+	color:black;
 	font-weight: 300;
 	position: relative;
 	top: 50px;
@@ -29,7 +29,7 @@ h3 {
 
 h4 {
 	font-size: 50px;
-	color: white;
+	color: black;
 	position: relative;
 	top: 100px;
 	text-align: center;
@@ -54,7 +54,7 @@ img {
 }
 
 .story {
-	background-color: rgba(16, 204, 193, 1);
+	background-color: rgba(16, 204, 193, .5);
 	float: left;
 	width: 300px;
 	height: 300px;
@@ -190,7 +190,7 @@ img {
 	 height:400px;
      width:800px;
      border-radius: 0 0 800px 800px;
-     background-color:rgba(16, 204, 193, .75);
+     background-color:rgba(255, 255, 255, .75);
      position: absolute;
      left: 35px;
 }
@@ -199,7 +199,7 @@ img {
 	 height:250px;
      width:500px;
      border-radius: 500px 500px 0 0;
-     background-color:rgba(255, 213, 25, .75);
+     background-color:rgba(255, 255, 255, .75);
      position: absolute;
      left: 800px;
      top: 450px;
@@ -215,6 +215,6 @@ img {
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
-	background-color:rgba(255, 213, 25, 1);
+	background-color:rgba(255, 213, 25, .5);
 	margin: 6px;
 }
