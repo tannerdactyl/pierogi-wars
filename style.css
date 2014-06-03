@@ -219,7 +219,7 @@ img {
 .controls {
 	position:fixed;
 	top: 5%;
-	right: 5%;
+	right: 2%;
 }
 
 .circle-controls {
@@ -235,3 +235,9 @@ img {
 	float:;left;
 	margin: 0 auto;
 } */
+
+.teaser-number {
+	position: absolute;
+	font-size: 400px;
+	color: rgba(255, 0 , 113, .5);
+}
