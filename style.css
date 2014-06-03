@@ -53,6 +53,17 @@ img {
 	margin: 20px 0 20px 0;
 }
 
+/* #story-holder {
+	width:100%;
+	float:;left;
+	margin: 0 auto;
+} */
+
+
+#story-holder {
+	margin: 10px;
+}
+
 .story {
 	background-color: rgba(255, 213, 25, .75);
 	float: left;
@@ -62,9 +73,6 @@ img {
 	padding: 4%;
 	border-radius: 50%;
 	text-align: center;
-	margin: 10;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
 }
 
 /*
@@ -133,8 +141,15 @@ img {
 	background-image: url(http://i.imgur.com/B4ijEBp.jpg); 
 }
 
+/*
 .section {
-	width: 60%;
+	width: 80%;
+	margin: 0 auto;
+}
+*/
+
+.section-holder {
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -230,14 +245,9 @@ img {
 	margin: 6px;
 }
 
-/* #story-holder {
-	width:100%;
-	float:;left;
-	margin: 0 auto;
-} */
 
 .teaser-number {
 	position: absolute;
-	font-size: 400px;
+	font-size: 350px;
 	color: rgba(255, 0 , 113, .5);
 }
