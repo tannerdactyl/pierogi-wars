@@ -47,9 +47,9 @@ p {
 	margin-top: .8em;
 }
 
-img {
+/*img {
 	margin: 20px 0 20px 0;
-}
+}*/
 
 .story {
 	background-color: rgba(255, 213, 25, .75);
@@ -97,11 +97,6 @@ img {
 	width:400px;
 	left:10%;
 }*/
-
-
-#splash-image {
-	margin: 0 0 0 0;
-}
 
 /*
 .back-link {
@@ -245,4 +240,8 @@ img {
 	position: absolute;
 	font-size: 350px;
 	color: rgba(255, 0 , 113, .5);
+}
+
+.body-image {
+	margin: 20px 0 20px 0;
 }
