@@ -6,60 +6,57 @@ $(document).ready(function() {
 		$('html, body').animate(
 			{scrollTop: $(id).offset().top}, "1000");
 	}
+
 	
 	//Story navigation buttons
-	$("#landing-control").click(function() { 
-		scrollTo("#landing");
-	});
-
 	$("#city-control, #teaser-1").click(function() { 
 		scrollTo("#city");
+		$("#city-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
 	});
 
 	$("#restaurant-control, #teaser-2").click(function() { 
 		scrollTo("#restaurant");
+		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
 	});
 
 	$("#truck-control, #teaser-3").click(function() { 
 		scrollTo("#truck");
-	});
-
-	// Nav button hover text
-	$("#landing-control").hover(function() {
-		$(this).append($("<p>landing</p>"));
-	}, function() {
-		$(this).empty();
-	});
-
-	$("#city-control").hover(function() {
-		$(this).append($("<p>city</p>"));
-	}, function() {
-		$(this).empty();
-	});
-
-	$("#restaurant-control").hover(function() {
-		$(this).append($("<p>restaurant</p>"));
-	}, function() {
-		$(this).empty();
-	});
-
-	$("#truck-control").hover(function() {
-		$(this).append($("<p>truck</p>"));
-	}, function() {
-		$(this).empty();
+		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
 	});
 
 	//Hide the nav bar with scrolling
 	$("#main-content").waypoint(function(direction) {
 		if (direction == "down") {
 			$("#controls").fadeIn("slow");
-
 		};
 		if (direction == "up") {
 			$("#controls").fadeOut("slow");
 		};
 	});
 
+	$("#city").waypoint(function() {
+		$("#city-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
+		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
+		$("#truck-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
+
+	});
+
+
+	$("#restaurant").waypoint(function() {
+		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
+		$("#city-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
+		$("#truck-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
+
+	});
+
+
+	$("#truck").waypoint(function() {
+		$("#truck-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
+		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
+		$("#city-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
+
+	});
+	
 
 	
 });
