@@ -26,20 +26,14 @@ $(document).ready(function() {
 	//Hide the nav bar with scrolling
 	$("#main-content").waypoint(function(direction) {
 		if (direction == "down") {
-			$("#controls").fadeIn("slow");
+			$("#controls").fadeIn("fast");
 		}
 		if (direction == "up") {
-			$("#controls").fadeOut("slow");
+			$("#controls").fadeOut("fast");
 		}
 	});
 
-	// $("#city").waypoint(function() {
-	// 	$("#city-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
-	// 	$("#city-control").animate({color: 'rgba(0, 0, 0, 1)'});
-	// 	$("#restaurant-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 	$("#truck-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-
-	// });
+	//Change navbar colors as you scroll
 
 	$("#city").waypoint(function() {
 		// Turn button yellow and text black
@@ -96,42 +90,14 @@ $(document).ready(function() {
 			}
 		});
 
-
-
-
-
-	// $("#restaurant").waypoint(function(direction) {
-	// 	if (direction == "down") {
-	// 		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
-	// 		$("#restaurant-control").animate({color: 'rgba(0, 0, 0, 1)'});
-	// 		$("#city-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 		$("#truck-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 	}
+	// $("#truck").waypoint(function() {
+	// 	// Turn button yellow and text black
+	// 	$("#truck-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
+	// 	$("#control-3").animate({color: 'rgba(0, 0, 0, 1)'});
 		
-	// 	if (direction == "up") {
-	// 		$("#city-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
-	// 		$("#city-control").animate({color: 'rgba(0, 0, 0, 1)'});
-	// 		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 		$("#truck-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 	}
-
-	// });
-
-
-	// $("#truck").waypoint(function(direction) {
-	// 	if (direction == "down") {
-	// 		$("#truck-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
-	// 		$("#truck-control").animate({color: 'rgba(0, 0, 0, 1)'});
-	// 		$("#city-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 	}
-		
-	// 	if (direction == "up") {
-	// 		$("#restaurant-control").animate({backgroundColor: 'rgba(255, 213, 25, .5)'});
-	// 		$("#restaurant-control").animate({color: 'rgba(0, 0, 0, 1)'});
-	// 		$("#city-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 		$("#truck-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
-	// 	}
+	// 	// Make sure other buttons are pink and white
+	// 	$("#restaurant-control, #city-control").animate({backgroundColor: 'rgba(255, 0 , 113, 1)'});
+	// 	$("#control-2, #control-1").animate({color: 'rgba(255, 255, 255, 1)'});
 	// });
 	
 	
