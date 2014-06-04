@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	
+	$("#controls").hide();
 	
 	function scrollTo(id) { // scrolls to certain location
 		$('html, body').animate(
@@ -48,7 +49,16 @@ $(document).ready(function() {
 		$(this).empty();
 	});
 
-	
+	//Hide the nav bar with scrolling
+	$("#main-content").waypoint(function(direction) {
+		if (direction == "down") {
+			$("#controls").fadeIn("slow");
+
+		};
+		if (direction == "up") {
+			$("#controls").fadeOut("slow");
+		};
+	});
 
 
 	
