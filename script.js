@@ -11,15 +11,15 @@ $(document).ready(function() {
 		scrollTo("#landing");
 	});
 
-	$("#city-control, #city-teaser").click(function() { 
+	$("#city-control, #teaser-1").click(function() { 
 		scrollTo("#city");
 	});
 
-	$("#restaurant-control, #restaurant-teaser").click(function() { 
+	$("#restaurant-control, #teaser-2").click(function() { 
 		scrollTo("#restaurant");
 	});
 
-	$("#truck-control, #truck-teaser").click(function() { 
+	$("#truck-control, #teaser-3").click(function() { 
 		scrollTo("#truck");
 	});
 
@@ -49,25 +49,7 @@ $(document).ready(function() {
 	});
 
 	
-	// $(function(){
- //    	$(window).scroll(function() { 
- //        	if ($(this).scrollTop() > 75) { 
- //            $("#controls:hidden").css('visibility','visible');   
- //            $("#controls:hidden").fadeIn('slow');  
- //        	} 
- //        	else {     
- //            $("#controls:visible").fadeOut("slow"); 
- //        	}  
- //    	});
-	// });
 
-	$("#controls").hide(); //hide your div initially
-    var topOfOthDiv = $("#landing").offset().top;
-    $(window).scroll(function() {
-        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-            $("#controls").show(200); //reached the desired point -- show div
-        }
-    });
 
 	
 });
