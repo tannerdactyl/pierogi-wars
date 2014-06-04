@@ -81,33 +81,36 @@ p {
 }
 
 #teaser-1 {
-	background-image: url(http://i.imgur.com/zcWGxpw.png);
+	background-image: url(http://i.imgur.com/D6OxXBr.png);
 	background-size: 100%;
 	height: 450px;
 	background-repeat: no-repeat;
 }
 
 #teaser-1:hover {
+	background-image: url(http://i.imgur.com/zcWGxpw.png);
 }
 
 #teaser-2 {
-	background-image: url(http://i.imgur.com/8gd64QV.png);
+	background-image: url(http://i.imgur.com/eEIU9EW.png);
 	background-size: 100%;
 	height: 450px;
 	background-repeat: no-repeat;
 }
 
 #teaser-2:hover {
+	background-image: url(http://i.imgur.com/8gd64QV.png);
 }
 
 #teaser-3 {
-	background-image: url(http://i.imgur.com/vjG8Bw8.png);
+	background-image: url(http://i.imgur.com/Zs6wzI5.png);
 	background-size: 100%;
 	height: 450px;
 	background-repeat: no-repeat;
 }
 
 #teaser-3:hover {
+	background-image: url(http://i.imgur.com/vjG8Bw8.png);
 }
 
 .teaser-text {
